@@ -1,0 +1,7 @@
+1. Create Customer, Movie Models
+2. Create Customers, Movies Controllers
+3. Bootstrap
+4. Routing (~RouteConfig.cs)
+5. @htmlactionlink
+6. Database (Code-First) Migrations -- enable-migrations, myDbContext
+7. Seeding database, Overriding Conventions (datatypes for tables), Querying objects (add _context [MyDbContext] in controllers)
