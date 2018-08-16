@@ -7,13 +7,19 @@
 <h2>Index</h2>
 
 <table class="table table-bordered table-hover">
-    <thead>Movies</thead>
+    <thead class="font-weight-bold">
+    <tr>
+        <td> Movies</td>
+        <td> Genre </td>
+    </tr>
+    </thead>
     <tbody>
+    @foreach (var movie in @Model.Movies)
+    {
         <tr>
-            <td>@Model.Movies[0].Name</td>
+            <td>@movie.Name</td>
+            <td>@movie.Genre</td>
         </tr>
-        <tr>
-            <td>@Model.Movies[1].Name</td>
-        </tr>
+    }
     </tbody>
 </table>

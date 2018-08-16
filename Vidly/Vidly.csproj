@@ -266,14 +266,14 @@
     <Compile Include="ViewModels\IndexMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="bin\Content\bootstrap-theme.css" />
+    <Content Include="bin\Content\bootstrap-theme.min.css" />
+    <Content Include="bin\Content\bootstrap.css" />
+    <Content Include="bin\Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="bin\Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -308,6 +308,7 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -317,10 +318,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="bin\Content\bootstrap.min.css.map" />
+    <Content Include="bin\Content\bootstrap.css.map" />
+    <Content Include="bin\Content\bootstrap-theme.min.css.map" />
+    <Content Include="bin\Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
